@@ -1,0 +1,46 @@
+ #demo{
+      width: 200px;
+      height: 22px;
+      border: 1px solid #999;
+      cursor: pointer;
+      position: relative;
+    }
+    .content{
+      width: 200px;
+      border: 1px solid #999;
+      border-top: none;
+      display: none;
+    }
+    ul{ padding-left:0; }
+    ul li{
+      list-style: none;
+      width: 180px;
+      height: 30px;
+      padding-left: 20px;
+      cursor: pointer;
+      line-height: 30px;
+    }
+    .title{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #txt{
+      width: 180px;
+      height: 20px;
+      margin: 10px 6px;
+    }
+    h3{
+      margin-top: 0; 
+    }
+    .caret{
+      position: absolute;
+      width: 0;
+      height: 0;
+      box-sizing: border-box;
+      border-color: black transparent transparent transparent;
+      top: 10px;
+      border-style: solid;
+      border-width: 5px;
+      margin: auto;
+      right: 10px;
+    }

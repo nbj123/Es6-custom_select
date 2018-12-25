@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+	<div id="wrap">
+    <div style="margin: 40px auto; width: 220px;">
+      <div class="title">自定义select</div>
+      <!-- <select id="demo" >
+        <option></option>
+        
+        <optgroup label="构建工具">
+          <option value="1" type="构建工具">Babel</option>
+          <option value="2" type="构建工具">Webpack</option>
+          <option value="3" type="构建工具">Rollup</option>
+
+        </optgroup>
+        <optgroup label="前端框架">
+          <option value="4" type="前端框架">Vue</option>
+          <option value="5" type="前端框架">Angular</option>
+          <option value="6" type="前端框架">React</option>
+          <option value="7" type="前端框架">Nerv</option>
+        </optgroup>
+        <optgroup><input type="text" placeholder="搜索" id="txt"></optgroup> 
+      </select> -->
+        
+        <div id="demo">&nbsp;&nbsp;<span id="chosen">未选择</span><span class="caret"></span></div>
+        <div class="content">
+          <input type="text" name="" id="txt" placeholder="搜索">
+          <div class="item">
+            <h3>构建工具</h3>
+            <ul>
+              <li name='1'>Babel</li>
+              <li name='2'>Webpack</li>
+              <li name='3'>Rollup</li>
+           </ul>
+           <h3>前端框架</h3>
+           <ul>
+              <li name='4'>Vue</li>
+              <li name='5'>Angular</li>
+              <li name='6'>React</li>
+              <li name='7'>Nerv</li>
+           </ul>
+          </div>
+        </div>
+    </div>
+    <div style="width:240px;margin: 0 auto;">
+      <p id="out"></p>
+    </div>
+
+    <div style="text-align: center;margin-top: 200px;">
+      <div class="title">原生select</div>
+      <select>
+        <option value="1" type="构建工具">Babel</option>
+        <option value="2" type="构建工具">Webpack</option>
+        <option value="3" type="构建工具">Rollup</option>
+        <option value="4" type="前端框架">Vue</option>
+        <option value="5" type="前端框架">Angular</option>
+        <option value="6" type="前端框架">React</option>
+        <option value="7" type="前端框架">Nerv</option>
+      </select>
+    </div>
+  </div>
+
+  <script src="js/js.js"></script>
+    
+  <script type="text/javascript">
+    const select = new Select();
+  </script>
+</body>
+</html>
